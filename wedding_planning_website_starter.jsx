@@ -12,7 +12,7 @@ const categories = [
 
 const vendors = [
   {
-    name: "Royal Bridal Makeup NJ",
+    name: "Natia Makeup NJ",
     category: "Makeup",
     location: "Edison, NJ",
     price: "$450–$900",
@@ -20,12 +20,12 @@ const vendors = [
     image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80",
   },
   {
-    name: "Henna by Aarya",
+    name: "Henna by Palak",
     category: "Mehendi",
     location: "Jersey City, NJ",
     price: "$150–$700",
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1595246007497-15a3c2f0f227?auto=format&fit=crop&w=900&q=80",
+    image: "/image.png",
   },
   {
     name: "Sona Jewelry Studio",
@@ -71,7 +71,7 @@ export default function WeddingPlanningWebsiteStarter() {
             <Sparkles size={16} className="text-amber-600" /> Nepali wedding planning made easier
           </div>
           <h1 className="text-3xl md:text-4xl font-bold leading-snug tracking-tight max-w-xl">
-            Trusted Nepali wedding vendors, without the DMs.
+            All Nepali wedding needs in one place !!
           </h1>
           <p className="mt-4 text-base text-stone-700 leading-7 max-w-xl">
             Makeup, mehendi, jewelry, photos, and more—with prices and locations in one place.
@@ -96,7 +96,7 @@ export default function WeddingPlanningWebsiteStarter() {
         <div className="relative">
           <div className="absolute -inset-4 bg-amber-200 rounded-[2rem] rotate-3" />
           <img
-            src="/DSC01512.jpg"
+            src="/Ring.jpg"
             alt="Nepali bride and groom in traditional wedding attire"
             className="relative rounded-[2rem] shadow-2xl object-cover h-[520px] w-full"
           />
