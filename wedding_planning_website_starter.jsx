@@ -25,7 +25,7 @@ const vendors = [
     location: "Jersey City, NJ",
     price: "$150–$700",
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1595246007497-15a3c2f0f227?auto=format&fit=crop&w=900&q=80",
+    image: "/image.png",
   },
   {
     name: "Sona Jewelry Studio",
