@@ -12,29 +12,19 @@ const categories = [
 
 const vendors = [
   {
-    name: "Royal Bridal Makeup NJ",
+    name: "NatiaMuah Makeup Artistry",
     category: "Makeup",
     location: "Edison, NJ",
     price: "$450–$900",
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80",
   },
   {
-    name: "Henna by Aarya",
+    name: "Henna by Palak",
     category: "Mehendi",
-    location: "Jersey City, NJ",
-    price: "$150–$700",
-    rating: 4.8,
-    image: "https://images.unsplash.com/photo-1595246007497-15a3c2f0f227?auto=format&fit=crop&w=900&q=80",
-  },
-  {
-    name: "Sona Jewelry Studio",
-    category: "Jewelry",
-    location: "Queens, NY",
-    price: "$80–$2,000",
-    rating: 4.7,
-    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-  },
+    location: "Edison, NJ",
+    price: "$150–$500",
+    rating: 4.8  
+  }
 ];
 
 export default function WeddingPlanningWebsiteStarter() {
