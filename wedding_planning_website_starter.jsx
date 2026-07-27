@@ -25,7 +25,7 @@ const vendors = [
     location: "Jersey City, NJ",
     price: "$150–$700",
     rating: 4.8,
-    image: "/image.png",
+    image: "public/henna.png",
   },
   {
     name: "Sona Jewelry Studio",
@@ -96,7 +96,7 @@ export default function WeddingPlanningWebsiteStarter() {
         <div className="relative">
           <div className="absolute -inset-4 bg-amber-200 rounded-[2rem] rotate-3" />
           <img
-            src="/Ring.jpg"
+            src="public/Ring.jpg"
             alt="Nepali bride and groom in traditional wedding attire"
             className="relative rounded-[2rem] shadow-2xl object-cover h-[520px] w-full"
           />
